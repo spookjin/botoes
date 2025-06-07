@@ -4,29 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/index.css">
     <title>Viajens Express</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            background-color: #1e90ff;
-            color: white;
-            padding: 2rem 1rem;
-        }
-        main {
-            margin: 2rem auto;
-            max-width: 800px;
-        }
-        .btn-main {
-            margin-top: 2rem;
-            padding: 1rem 2rem;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -35,7 +14,17 @@
     </header>
     <main>
         <p>Bem-vindo ao nosso site de viagens. Escolha seu destino favorito e aproveite esta oferta exclusiva.</p>
-        <a href="#" id="buy" class="btn btn1 btn-main">Comprar Passagem</a>
+        <form id="viagem-form">
+            <div class="form-field">
+                <label for="embarque">Embarque:</label>
+                <input type="text" id="embarque" name="embarque" required>
+            </div>
+            <div class="form-field">
+                <label for="destino">Destino:</label>
+                <input type="text" id="destino" name="destino" required>
+            </div>
+            <a href="#" id="buy" class="btn btn1 btn-main">Comprar Passagem</a>
+        </form>
     </main>
     <script>
         document.getElementById('buy').addEventListener('click', function(event) {
