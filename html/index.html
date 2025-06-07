@@ -1,23 +1,47 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF8"
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/css/style.css">
-        <title>botoes</title>
-    </head>
-    
-    
-    <body>
-        
-        <li class=L><a href="#" class="btn btn1">botao1</a></li>
-        <li class=L><a href="#" class="btn btn2">botao2</a></li>
-        <li class=L><a href="#" class="btn btn3">botao3</a></li>
-        <li class=L><a href="#" class="btn btn4">botao4</a></li>
-        <li class=L><a href="#" class="btn btn5">botao5</a></li>
-        <li class=L><a href="#" class="btn btn6">botao6</a></li>
-        <li class=L><a href="#" class="btn btn7">botao7</a></li>
-        <li class=L><a href="#" class="btn btn8">botao8</a></li>
-    </nav>
-    </body>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Viajens Express</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #1e90ff;
+            color: white;
+            padding: 2rem 1rem;
+        }
+        main {
+            margin: 2rem auto;
+            max-width: 800px;
+        }
+        .btn-main {
+            margin-top: 2rem;
+            padding: 1rem 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Viajens Express</h1>
+        <p>Compre sua passagem e ganhe o hotel de brinde!</p>
+    </header>
+    <main>
+        <p>Bem-vindo ao nosso site de viagens. Escolha seu destino favorito e aproveite esta oferta exclusiva.</p>
+        <a href="#" id="buy" class="btn btn1 btn-main">Comprar Passagem</a>
+    </main>
+    <script>
+        document.getElementById('buy').addEventListener('click', function(event) {
+            event.preventDefault();
+            alert('Parabéns! Você comprou sua passagem e recebeu o hotel totalmente de graça!');
+        });
+    </script>
+</body>
 </html>
