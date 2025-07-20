@@ -1,5 +1,5 @@
-# botoes
+# Bebidas Delivery
 
-Este repositorio contem um exemplo simples de botoes animados em CSS. A pagina `html/index.html` demonstra um site de viagens onde, ao comprar uma passagem, o usuario recebe uma hospedagem de brinde.
+Esta é uma aplicação simples inspirada no iFood focada em pedidos de bebidas. O projeto demonstra uma interface básica de listagem de bebidas e um carrinho de compras implementado apenas com HTML, CSS e JavaScript.
 
-Abra o arquivo `html/index.html` em um navegador para conferir o comportamento.
+Para executá-lo basta abrir o arquivo `index.html` em um navegador.
