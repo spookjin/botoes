@@ -1,0 +1,8 @@
+bin/
+obj/
+**/bin/
+**/obj/
+backend/LeadManager.Api/notifications/
+*.user
+*.suo
+.vs/
